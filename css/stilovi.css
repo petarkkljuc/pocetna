@@ -26,9 +26,16 @@ html{
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
+}
+@media (hover: none) {
+  #button:hover {
+    cursor: pointer;
+    background-color: #FF9800;
+  }
 }
 #button:active {
   background-color: #555;
@@ -38,8 +45,11 @@ html{
   visibility: visible;
 }
 #logo{
-  display: block;
-  width: 200px;
+  
+  flex-wrap: wrap;
+  width: 80%; 
+  max-width: 200px;
+  min-width: 100px;
   text-align: center;
   border-radius: 4px;
 }
@@ -47,15 +57,80 @@ html{
 #header {
    
     padding: 0px;
-  
     width: 100%;
     transition: 0.4s;
   }
+  
   #meni{
-       
-      position: -webkit-sticky;
-      position: sticky !important;
-      top: 0;
-      padding: 5px;
-
+      position: fixed !important;
+      font-size: 35px;
+      width: 70px;
+      height: 70px;;
+      text-align: center;
+     text-align-last: center;
+     padding: 10px;
+     
+      border-radius: 50%;
+      background-color: #555;
+     
   }
+  #meni:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+
+
+
+    #telefon{
+      font-size: 20px !important; 
+      min-width: 150px;
+      
+    }
+    #navigacija{
+      max-width: 200px;
+    }
+    #tele::after{
+      content: "\f879";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+    }
+    #centar{
+     
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #ikonice{
+      width: 70px;
+      height: 70px;
+    }
+    @media screen and (max-width:360px){
+      #slova{
+          font-size:15px;
+      }  
+  }
+  #mapa{
+    width: 80%;
+    min-width: 200px;
+    max-width: 500px;
+    
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #centar2{
+     
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
