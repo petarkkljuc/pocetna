@@ -3850,7 +3850,15 @@
   content: "\e322";
 }
 .icon-menu:before {
-  content: "\e5d2";
+  content: "\e5d2"; 
+  color: wihte;
+  border-radius: 20px;  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 .icon-message:before {
   content: "\e0c9";
