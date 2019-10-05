@@ -203,3 +203,7 @@ html{
   #visina{
     height: 265px;
   }
+  img#galeri{
+    
+    height: 300px!important;
+  }
