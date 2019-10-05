@@ -53,13 +53,22 @@ html{
   text-align: center;
   border-radius: 4px;
 }
-
+@media screen and (max-width:420px){
 #header {
    
-    padding: 0px;
+    padding: 50px!important;
     width: 100%;
     transition: 0.4s;
   }
+}
+
+  
+#header {
+   
+  padding: 0px;
+  width: 100%;
+  transition: 0.4s;
+}
   
   #meni{
       position: fixed !important;
@@ -69,7 +78,8 @@ html{
       text-align: center;
      text-align-last: center;
      padding: 10px;
-     
+     transition-duration: 0.3s;
+     right: 30px;
       border-radius: 50%;
       background-color: #555;
      
@@ -81,6 +91,24 @@ html{
 
 
 
+  @media screen and (max-width:420px){
+    #meni{
+      position: fixed !important;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;;
+      text-align: center;
+     text-align-last: center;
+     padding: 0px;
+     right: 30px;
+     transition-duration: 0.3s;
+      border-radius: 50%;
+      background-color: #555;
+     
+  }
+    }
+
+
     #telefon{
       font-size: 20px !important; 
       min-width: 150px;
@@ -89,6 +117,13 @@ html{
     #navigacija{
       max-width: 200px;
     }
+    
+  @media screen and (max-width:380px){
+    #navigacija{
+      max-width: 150px;
+    }
+    }
+    
     #tele::after{
       content: "\f879";
   font-family: FontAwesome;
@@ -111,8 +146,11 @@ html{
     }
     @media screen and (max-width:360px){
       #slova{
-          font-size:15px;
-      }  
+          font-size:16px;
+      }
+      h1#slova{
+        font-size:22px;
+    }   
   }
   #mapa{
     width: 80%;
@@ -181,10 +219,10 @@ html{
   }
   
   #pik{
-    width: 90px;
+    width: 140px;
   }
   #pik:hover{
-    width: 100px;
+    width: 155px;
     transition-duration: 0.3s;
   }
   #promjena2{
@@ -207,3 +245,12 @@ html{
     
     height: 300px!important;
   }
+  #velikilogo{
+    margin-left: 150px;
+  }
+
+  @media not screen and (min-width:1200px){
+    #velikilogo{
+      margin-left: auto;
+    } 
+}
