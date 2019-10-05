@@ -134,3 +134,72 @@ html{
     transform: translate(-50%, -50%);
   }
  
+  #boja{
+    width: 50px;
+
+  }
+  #boja:hover{
+    filter: brightness(0%) ;
+    transition-duration: 0.3s;
+  }
+  #mapaikonica::after{
+    font-family: FontAwesome;
+    
+    content:"\f279";
+    
+  }
+  #mapaikonica2::after{
+    font-family: FontAwesome;
+    
+    content:"\f041";
+  
+    color: rgb(213, 70, 58);
+    
+  }
+
+  #mapaikonica2:hover{
+    font-family: FontAwesome;
+    content:"\f041";
+     color: black!important;
+     
+     transition-duration: 0.3s;
+    
+  }
+  #mapaikonica:hover{
+    font-family: FontAwesome;
+    
+    content:"\f279";
+    color: black;
+    padding-top: 2px;
+    transition-duration: 0.3s;
+    
+  }
+  #promjena:hover{
+    color: black;
+    transition-duration: 0.3s;
+    
+  }
+  
+  #pik{
+    width: 90px;
+  }
+  #pik:hover{
+    width: 100px;
+    transition-duration: 0.3s;
+  }
+  #promjena2{
+    font-size: 22px; 
+    margin-bottom: 10px!important;
+    border: 1px solid rgba(0,0,0, 0.1); 
+    padding: 2px 7px;
+    width: 260px;
+  }
+
+  #promjena2:hover{
+    color: black;
+    transition-duration: 0.3s;
+    
+  }
+  #visina{
+    height: 265px;
+  }
