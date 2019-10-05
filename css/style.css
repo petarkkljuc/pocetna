@@ -254,6 +254,7 @@ h1, h2, h3, h4, h5,
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold; }
+  
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none;
