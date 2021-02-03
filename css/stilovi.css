@@ -217,6 +217,10 @@ html{
     transition-duration: 0.3s;
     
   }
+  #promjena{
+    text-align: center;
+    
+  }
   
   #pik{
     width: 140px;
@@ -227,10 +231,9 @@ html{
   }
   #promjena2{
     font-size: 22px; 
-    margin-bottom: 10px!important;
-    border: 1px solid rgba(0,0,0, 0.1); 
-    padding: 2px 7px;
-    width: 260px;
+   
+    
+   
   }
 
   #promjena2:hover{
