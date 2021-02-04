@@ -222,9 +222,9 @@ body {
   color: #fff; }
 
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .5s all ease;
+  -o-transition: .5s all ease;
+  transition: .5s all ease;
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5,
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #000; }
   .site-footer a {
-    color: #01d28e; }
+    color: #0081cc; }
     .site-footer a:hover {
       color: #000; }
   .site-footer ul li {
@@ -1728,7 +1728,7 @@ h1, h2, h3, h4, h5,
 .social_29128.white a {
   background: rgba(255, 255, 255, 0.2); }
   .social_29128.white a span {
-    color: #01d28e; }
+    color: #0081cc; }
   .social_29128.white a:hover {
     background: #fff; }
 

@@ -200,7 +200,7 @@ html{
     content:"\f041";
      color: black!important;
      
-     transition-duration: 0.3s;
+     transition-duration: 0.5s;
     
   }
   #mapaikonica:hover{
@@ -208,17 +208,18 @@ html{
     
     content:"\f279";
     color: black;
-    padding-top: 2px;
-    transition-duration: 0.3s;
+    padding-top: 6px;
+    transition-duration: 0.5s;
     
   }
   #promjena:hover{
-    color: black;
-    transition-duration: 0.3s;
+    color: black!important;
+    transition-duration: 0.5s;
     
   }
   #promjena{
     text-align: center;
+    transition-duration: 0.5s;
     
   }
   
